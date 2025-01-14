@@ -1,0 +1,42 @@
+body {
+    background-color: #252b25;
+    direction: rtl;
+    color: aliceblue;
+    line-height: 3.2;
+    font-family: Vazirmatn, sans-serif;
+    margin: 0;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #374037;
+}
+
+nav .nav-link {
+
+    padding: 10px;
+    text-decoration: none;
+    color: greenyellow;
+    box-shadow: 0 0 10px #53a513;
+    border-radius: 10px;
+
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+    main{
+        width: 100%;
+    }
+}
