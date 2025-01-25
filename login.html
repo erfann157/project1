@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>login</title>
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/login.css">
 
@@ -27,30 +27,38 @@
 
 <main>
 
-    <div class="mmm">
+    <form method="post" action="">
+        <div class="mmm">
 
-        <h2 class="center">ورود به سایت من</h2>
-        <hr>
-        <div class="center">
-            <label for="email">لطفا ایمیل خود را وارد کنید</label>
-            <input id="email" class="center-block" type="email" name="email" placeholder="ایمیل">
-        </div>
-        <br>
-        <input type="email" name="password" placeholder="رمز">
-        <br>
-        <a class="yyy" href="#">رمز خود را فراموش کرده اید</a>
-
-        <div class="center">
-            <input id="remember"  type="checkbox" name="remember">
-            <label for="remember">مرا به خاطر بسپار</label>
-            <br>
-            <button class="botton" type="submit">ورود</button>
+            <h2 class="center">ورود به سایت من</h2>
             <hr>
-            <span>حساب کاربری ندارید؟</span><a class="yyy" href="Registration.html"> ثبت
-            نام </a>
-            <span>کنید</span>
+            <div class="center">
+                <label for="email">لطفا ایمیل خود را وارد کنید</label>
+                <input id="email" class="center-block" type="email" name="email" placeholder="ایمیل">
+            </div>
+            <br>
+            <input type="password" name="password" placeholder="رمز">
+
+            <br>
+            <a class="yyy" href="#">رمز خود را فراموش کرده اید</a>
+
+            <div class="center">
+                <input id="remember" type="checkbox" name="remember">
+                <label for="remember">مرا به خاطر بسپار</label>
+                <br>
+                <button class="botton" type="submit">ورود</button>
+                <hr>
+                <span>حساب کاربری ندارید؟</span><a class="yyy" href="Registration.html"> ثبت
+                نام </a>
+                <span>کنید</span>
+            </div>
         </div>
-    </div>
+    </form>
+
+    وقتی فرم داری باید از تگ form استفاده کنی
+    این تگ به چند روش داده های فرم رو ارسال میکنه
+    دوتا از پر کاربردترین هاشون Get , post
+    وقتی Get استفاده میکنی فیلدهای فرم توی url ارسال میشه الان ببین مثال رو
 
 </main>
 
